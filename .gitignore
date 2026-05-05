@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+*.csv
+# Vector Store
+*.bin
+*.pkl
+
+# OS
+.DS_Store
