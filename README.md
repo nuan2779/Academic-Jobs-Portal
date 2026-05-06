@@ -170,7 +170,7 @@ Open `http://localhost:8501` in your browser.
 
 User Query
     │
-    ├──► BM25 (Okapi)        ──► Top-300 by keyword rank
+    ├──► BM25         ──► Top-300 by keyword rank
     │     └── rank-bm25
     │
     └──► HNSW (Semantic)     ──► Top-300 by vector similarity
