@@ -214,7 +214,7 @@ User Query
 | **Stored Procedures** | 6 | `sp_PostJob`, `sp_CloseJob`, `sp_ExpireJobs` |
 | **UDFs** | 6 | `fn_IsJobActive`, `fn_DaysToDeadline`, `fn_CountActiveJobs` |
 | **Triggers** | 3 | `trg_SetJobStatus_Insert`, `trg_LogJobStatusChange` |
-| **Indexes** | 15+ | FULLTEXT on `JobTitle`, composite on `(JobID, ApplicantID)` |
+| **Indexes** | 15 | FULLTEXT on `JobTitle`, composite on `(JobID, ApplicantID)` |
 
 ---
 
